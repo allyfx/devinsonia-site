@@ -1,0 +1,188 @@
+/*PRINCIPAL*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    height: 100%;
+    color: white;
+    background: url(../img/background.png);
+}
+
+#principal {
+    padding-top: 150px;
+    height: 100%;
+    background-image: url(../img/ondas-bg.png);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+}
+
+#ondasBG {
+    height: 100%;
+}
+
+/*HEADER*/
+header {
+    text-align: center;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    font-size: 123px;
+}
+
+header h4 {
+    margin-top: -25px;
+    margin-bottom: 20px;
+    font-size: 34px;
+}
+
+header h6 {
+    font-size: 27px;
+    margin-bottom: 43px;
+}
+
+/*BOTÃO*/
+.btn {
+    border-radius: 10px;
+    background-color: #4F0CD6;
+    padding: 10px 53px;
+    font-size: 25px;
+    width: 400px;
+    transition: background-color 0.5s;
+}
+
+.btn:hover {
+    background-color: #4106B9;
+    cursor: pointer;
+}
+
+/*CONTENT*/
+#content {
+    margin-top: 160px;
+}
+
+.headerContent {
+    margin-left: 20%;
+}
+
+.headerContent img {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+/*DEV SECTION*/
+
+#mathSection {
+    margin-right: 40px;
+}
+
+#devSection {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(159, 113, 251, 0.5);
+    padding: 170px 307px;
+    margin-bottom: 60px;
+}
+
+#devSection h1 {
+    font-size: 30px;
+}
+
+#devSection a img {
+    margin-top: 8px;
+}
+
+#devSection p {
+    margin-top: 17px;
+    font-size: 21px;
+}
+
+#devSection img {
+    margin-top: 11px;
+}
+
+/*OUVIR SECTION*/
+#ouvirSection {
+    text-align: center;
+    padding: 30px 307px;
+    background: rgba(159, 113, 251, 0.3);
+}
+
+#redeSociais h1 {
+    font-size: 40px;
+    margin-bottom: 101px;
+}
+
+#redesNames {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#redeSociais img {
+    margin-right: 59px;
+    margin-left: 59px;
+}
+
+#redeSociais h4 {
+    margin-top: 9px;
+    margin-right: 143px;
+    margin-left: 143px;
+}
+
+
+#ouvirSite {
+    margin: 101px 0;
+}
+
+#ouvirSite h2 {
+    margin-bottom: 180px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playerBackNext {
+    background-color: #5D32B1;
+    width: 313px;
+    height: 447px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linha {
+    margin-bottom: 10px;
+}
+
+.playerHeader {
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+.playerMid {
+    background-color: #5D32B1;
+    width: 377px;
+    height: 538px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seta:hover {
+    cursor: pointer;
+}
