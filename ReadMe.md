@@ -1,4 +1,4 @@
-<h1 align="center">Devinsônia podcast website</h1>
+<h1 align="center">🎙 Devinsônia podcast website</h1>
 <p align="center">DevInsônia is a podcast about game development and development in general. It is being done by two indie developers, <a href="https://gamejolt.com/@Math_Dev">Math</a> and <a href="https://gamejolt.com/@ImAlly">Ally</a>. The first episode has not yet been posted, but soon the pilot will be available soon.</h1>
 
 ## 📫 DevInsônia social medias
